@@ -1,0 +1,92 @@
+*{
+    text-align: center;
+    align-items: center;
+}
+
+.btn-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+.btn{
+    height: 100px;
+    width: 100px;
+    border: 10px solid black;
+    border-radius: 20% ;
+    margin: 1rem 0.5rem ;
+
+}
+h3{
+    color: rgb(4, 94, 4);
+}
+.green{
+    background-color: #33C540;
+}
+
+.red{
+    background-color: #FA2513;
+}
+
+.yellow{
+   background-color:  #FFF823;
+}
+
+.blue{
+    background-color: #0186EB;
+}
+
+.inner{
+    border: 2px solid black ;
+}
+.rules{
+    border: 3px solid yellow;
+    font-size: 1em;
+    color: gold;
+    background-color: black;
+}
+.start-btn{
+    background-color: greenyellow;
+    border: 3px solid black;
+    font-size: 1em;
+}
+.reset-btn{
+    background-color: rgb(244, 81, 81);
+    border: 3px solid black;
+    font-size: 1em;
+}
+
+.gameflash{
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.userflash{
+    background-color: white;
+    transform: scale(0.9);
+}
+
+.main{
+    height: 70vh;
+    width: 70vh;
+    background-color: black;
+    margin: auto;
+    margin-top: 8%;
+    transition: transform 800ms ease-in-out;
+}
+.main:hover{
+    transform: scale(1.3);
+    box-shadow: 0px 0px 10px 10px yellow;
+    
+}
+
+.main::selection{
+    color: yellow;
+}
+
+.back{
+    background-color: grey;
+    color: white;
+    border: 2px solid white;
+}
+
+
