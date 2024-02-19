@@ -32,7 +32,8 @@ To run the Simon Says game, simply open the `index.html` file in a web browser t
 
 ## Hosted Version
 
-You can play the game online by visiting the following link: [Simon Says Game](https://prathik-poojari.github.io/Simon-Says-Game/)
+
+You can play the game online by visiting the following link: [Simon Says Game](https://prathik-poojari.github.io/Simon-says-Game-/)
 
 ## Acknowledgements
 
